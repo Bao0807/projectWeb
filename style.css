@@ -1,0 +1,11 @@
+.thanhtieude img{
+    max-width: 100px;
+    margin-top: 0;
+}
+.thanhtieude{
+    background-color: skyblue;
+}
+.thanhtieude input{
+    border-radius: 20px;
+    border-color: aqua;
+}
