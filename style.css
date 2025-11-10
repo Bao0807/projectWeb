@@ -1,11 +1,41 @@
 .thanhtieude img{
-    max-width: 100px;
-    margin-top: 0;
+    max-width: 90px;
+    margin-left: 10px;
 }
 .thanhtieude{
     background-color: skyblue;
+    margin-top: -8px;
+    margin-left: -8px;
+    align-items: center;
+    display: flex;  
+
 }
 .thanhtieude input{
     border-radius: 20px;
     border-color: aqua;
+    margin-left: 90px;
+    margin-top: -10px;
+}
+button{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    background-color: aqua;
+    color: white;
+}
+body .body{
+    display: flex;
+    justify-content: center;  /* căn giữa theo chiều ngang */
+    align-items: center;      /* căn giữa theo chiều dọc */
+    height: 100vh;            /* chiều cao toàn màn hình */
+    margin: 0;                /* bỏ khoảng trắng mặc định của body */
+    background-color: #ddd;
+}
+.body img{
+    width: 100px;
+    animation: xoayLogo 3s linear infinite;
+}
+@keyframes xoayLogo {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
 }
