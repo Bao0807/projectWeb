@@ -44,3 +44,8 @@ body .body{
     from { transform: rotate(0deg); }
     to { transform: rotate(360deg); }
 }
+.anh2 {
+    width: 100%;   /* Chiều ngang chiếm 100% trang web */
+    height: auto;  /* Tự điều chỉnh chiều cao để không méo ảnh */
+    display: block; /* Loại bỏ khoảng trắng bên dưới ảnh */
+}
